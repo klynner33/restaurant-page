@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: red;
+}
+
+.main-heading {
+  padding: 15px;
+  color: #333333;
+  font-size: 3rem;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 5%;
+  color: #333333;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: #333333;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.burger-fries-img {
+  width: 33.33%;
+}
+
+.para-container {
+  background-color: #333333;
+  padding: 30px 25% 200px;
+}
+
+.welcome-heading, .welcome-para { 
+  display: inline;
+  color: white;
+}
+
+.welcome-heading {
+  padding-right: 5px;
+  font-size: 2rem;
+}
+
+.welcome-para {
+  font-size: 1.7rem;
+}
+
+.menu-heading, .contact-heading {
+  padding: 30px 0;
+}
+
+.menu-para {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 30px;
+}
+
+.menu-item {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 3;
+}
+
+.menu-heading, .menu-para, .menu-item, .contact-heading, .contact-info, .location-heading {
+  color: #333333;
+}
+
+.contact-info, .location-heading {
+  text-align: center;
+}
+
+.location-heading {
+  padding: 30px 0 10px;
+}
